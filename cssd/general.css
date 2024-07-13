@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+    
+
+
+}
+h1{
+    text-align:center;
+    margin:10px ;
+    padding:40px ;
+    color: rgb(29, 105, 134);
+    border-bottom: 2px solid rgb(29, 105, 134);
+
+}
+h2{
+    text-align:center;
+    color: rgb(29, 105, 134);
+
+}
+.chair{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 4px rgba(57, 57, 58, 1);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    background: rgb(29, 105, 134);
+    flex-wrap: wrap;
+}
+.gen{
+    /* border: 1px solid red; */
+    width: 100px;
+    margin: 10px;
+    background-image: url(image/VC2.png);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: -14px;
+    height: 115px;
+}
+.gen2{
+    /* border: 1px solid red; */
+    width: 100px;
+    margin: 10px;
+    flex-grow: 12;
+   
+}
+#h3{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+ 
+
+}
+.patron{
+    /* border: 2px solid rgb(29, 105, 134); */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.vc{
+    border: 2px solid #337ab7;
+    margin: 10px;
+    padding: 0px; 
+    width: 31%;
+    box-shadow: 5px 5px 5px 4px rgba(57, 57, 58, 1);
+    
+}
+.h1{
+    margin: 10px;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* border-bottom: 1px solid red; */
+    color: white;
+    background:#337ab7;
+}
+.contain{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+.img{
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+.image{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.text{
+    border: 2px solid #337ab7;
+  
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    color: #337ab7;
+
+}
+
+
+@media(max-width:770px){
+    .gen2{
+        flex-grow:0;
+        width: 100%;
+        
+    }
+    .gen{
+        display: block;
+        margin: auto;
+    }
+    #h3{
+        margin: 0px;
+        padding: 10px;
+    }
+    .vc{
+        width: 100%;
+    }
+}
+/* .vcp {
+    position: relative;
+    left: -312px;
+    border: 2px solid #337ab7;
+    margin: 10px;
+    padding: 0px; 
+    width: 31%;
+    box-shadow: 5px 5px 5px 4px rgba(57, 57, 58, 1);
+}
+.h11{
+    margin: 10px;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* border-bottom: 1px solid red; */
+    /* color: white;
+    background:#337ab7;
+} */ 

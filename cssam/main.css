@@ -1,0 +1,231 @@
+
+.mine {
+    position: relative;
+    top: 40px;
+}
+
+.midit
+{
+
+	padding: 5%;
+}
+.bigit
+{
+	font-size: 30px;
+}
+.midit li 
+{
+	font-size: 40px;
+
+ font-weight: bold;
+}
+.midit a
+{
+	color: black;
+}
+.midit a:hover
+{
+	color: #31b0d5;
+}
+
+.rot
+{
+	animation:spin 4s infinite linear;
+
+  transform-origin: 50%  50%;
+}
+.titlek
+{
+	background-color: #00FFFF;
+}
+@keyframes spin{
+  
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(359deg);}
+}
+header img
+{
+	height: 100px;
+}
+
+header .col-sm-3 ,header .col-sm-4 , header .col-sm-44 , header .col-sm-5
+{
+	height: 170px;
+	border-right: 2px solid grey
+}
+header .left
+{
+	width: auto;
+	position: absolute;
+	left: 7px;
+	top: 0;
+	margin-top: 7px;
+
+
+}
+header .left h1
+{
+	width: 100%;
+}
+header .right 
+{
+ position: absolute;
+ 
+ height: 130px;
+ left: 130px;
+ right: 0;
+color: white;
+padding-top: 0;
+ }
+ header .row .col-sm-3 p
+ {
+ 	text-align: center;
+ }
+ #or{
+ 	border-left: 1px solid grey;
+ }
+
+.content
+{
+	padding: 0;
+	margin-top: 0;
+}
+
+#myCarousel{
+
+}
+#about
+{
+	box-shadow: 5px solid grey;
+	color: black;
+
+background-image: linear-gradient(60deg, rgb(66, 165, 245) 0%, rgb(244, 246, 247) 100%);}
+
+#intro .row 
+{
+	padding: 3%;
+	
+}
+#intro .row .col-sm-12 p
+{
+	text-align: justify;
+}
+
+#notices .col-sm-3,#notices .col-sm-4,#notices .col-sm-44
+{
+	border-top:5px solid rgb(66, 165, 255);
+	border-bottom: 5px solid rgb(66, 165, 255);
+	box-shadow: 5px 10px 10px #888888;
+    height: 310px;
+   
+   
+
+
+}
+
+#notices .col-sm-3 p,#notices .col-sm-4 p 
+{
+    position: relative;
+    top:-23px;
+}
+#notices .col-sm-3 ul,#notices .col-sm-4 ul
+{
+	list-style: none;
+	padding: 0;
+	
+
+}
+#notices .col-sm-3 ul li,#notices .col-sm-4 ul li
+{
+	padding: 7px;
+	padding-left: 0;
+	margin: 1px;
+}
+
+
+
+
+
+
+#organized .col-sm-4, #organized .col-sm-44
+{
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	height: 250px; 
+	border-right: 1px solid rgb(22, 30, 49);
+	padding-top: 60px;
+	font-size: 15px; 
+
+
+}
+.ut
+{
+	font-family: mmmut;
+}
+.ut h5
+{
+	background: linear-gradient(to right, #330867 15%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 16px;
+
+}
+.table
+{
+	width: 70%;
+}
+
+#phdi
+{
+	text-align: justify;
+	font-family: "times new roman";
+	padding: 3px;
+	font-size: 1.1em;
+}
+
+
+@font-face
+{
+	font-family: mmmut;
+    src: url("../fonts/lemon_milk/LemonMilkbold.otf");
+}
+
+
+.sh1
+{
+	background: linear-gradient(to right, rgb(0, 0, 0), rgb(83, 52, 109));
+}
+
+.card-1 {
+	color:white;
+	font-family: "times new roman";
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.s
+{
+	width: 100%;
+}
+
+#rules
+{
+
+}
+#rules li
+{
+	font-size: 1.1em;
+	padding: 0;
+	margin: 1.1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .hid
+    {
+    	display: none;
+    }
+}

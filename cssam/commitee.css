@@ -1,0 +1,164 @@
+.member ul
+{
+	list-style: circle;
+}
+.member .col-sm-6
+{
+	box-shadow: 2px 2px grey;
+background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	padding-top:10px;
+}
+.member
+{
+	padding: 2%;
+}
+.member li
+{
+	position: 1px;
+	font-weight: thick;
+	
+
+}
+#cp{
+
+background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.row
+{
+	padding:1%;
+}
+.comm p
+{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	width: 100%;
+
+
+}
+
+.comm .col-sm-4
+{
+border-right: 3px solid #27AE60;
+border-bottom: 3px solid #27AE60;
+padding: 0;
+}
+.comm .col-sm-4 ul
+{
+	list-style: none;
+	padding: 0;
+}
+.comm .col-sm-4 ul li
+{
+	padding: 2%;
+
+}
+.comm .col-sm-4 p
+{
+	
+
+}
+
+.patron p
+
+{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	color: black;
+}
+.patron .col-xs-3
+{
+	padding: 0;
+}
+.patron .col-xs-9
+{
+	padding: 0;
+}
+.track .col-sm-12
+{
+	padding: 0;
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.track .col-sm-12 p
+{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	text-align: center;
+	font-weight: bolder;
+	color: black;
+	font-size: 24px;
+	text-decoration: underline;
+}
+.track .col-sm-12 ul
+{
+}
+.track .col-sm-12 ul li
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 1%;
+}
+
+
+
+
+
+
+.tracks .col-sm-6
+{
+	padding-right: 0;
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+
+
+.track .col-sm-6
+{
+	padding-right: 0;
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.track .col-sm-6 p
+{
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	text-align: center;
+	font-weight: bolder;
+	color: black;
+	font-size: 24px;
+	text-decoration: underline;
+}
+.track .col-sm-6 ul
+{
+}
+.track .col-sm-6 ul li
+{
+	text-align: left;
+	
+	font-size: 16px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backcol
+{
+	background-image: linear-gradient(120deg, #f9faf5 0%,rgb(66, 165, 245);
+
+}

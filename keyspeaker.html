@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <title> ICSEIC 2025 | CMRU </title>
+    <link rel="icon" type="image/png" href="images/web-logo.png" sizes="70x70">
+
+
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!--Balaji Parla-->
+    <link href="cssam/main.css" rel="stylesheet" type="text/css">
+    <link href="cssam/menu.css" rel="stylesheet" type="text/css">
+    <link href="cssam/hedfoot.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cssam/bootstrap.min.css">
+    <link rel="stylesheet" href="cssam/counter.css">
+    <link href="cssam/menu.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="cssam/foot.css">
+    <link href="cssam/commitee.css" rel="stylesheet" type="text/css">
+    <link href="cssam/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js/bootstrap.min.js"></script>
+
+
+    <!--css code of deep-->
+    <style>
+        .why {
+
+            background-color: #001219;
+
+
+        }
+
+        .cen {
+            text-align: center;
+        }
+
+        .left {
+            width: 30%
+        }
+
+        .affix {
+            top: 0;
+            width: 100%;
+            z-index: 9999 !important;
+        }
+
+        .affix+.container-fluid {
+            padding-top: 70px;
+        }
+
+        nav>.active>a {
+            background-color: rgb(66, 165, 245);
+        }
+
+
+
+
+            {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container10 {
+            height: 110vh;
+            background: #17202A;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container11 {
+            position: relative;
+            top: 10%;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 20px;
+
+        }
+
+        .heading10 {
+            padding: 5px;
+        }
+
+        .heading12 {
+            font-size: 55px;
+            font-family: 'Quicksand', sans-serif;
+            padding: 30px;
+
+
+        }
+
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /* for our team */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        .teamcontainer {
+            /* border: 2px solid black;  */
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(66, 165, 245);
+            text-align: center;
+
+        }
+
+        .teamcontainerchild {
+            height: 50px;
+            width: 100vw;
+            /* width: 30%; */
+            display: inline-block;
+            /* border: 2px solid black; */
+            margin: 20px;
+        }
+
+        .teamcontainerchild1 {
+            height: 370px;
+            width: 30%;
+            display: inline-block;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+            border-radius: 10px;
+            margin: 20px;
+            background-color: white;
+
+
+        }
+
+        @media(max-width:760px) {
+            .teamcontainerchild1 {
+                height: 300px;
+                width: 90%;
+
+            }
+
+            #member-1,
+            #member-4,
+            #member-5,
+            #member-6 {
+                height: 380px;
+                ;
+            }
+
+            #member-2 {
+                height: 420px;
+            }
+
+            #member-3 {
+                height: 430px;
+            }
+        }
+
+        .teamcontainerheading {
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            padding: 10px;
+
+        }
+
+        .teamimage {
+            position: relative;
+            left: 0%;
+            top: -35px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid rgb(8, 120, 165);
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+
+        }
+
+        .teamimage:hover {
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+            border: 5px solid rgb(8, 120, 165);
+        }
+
+        #image-1,
+        #image-2 {
+            border: 10px solid rgb(8, 120, 165);
+
+        }
+
+        .backface>.backface-back {
+            height: 200px;
+            width: 200px;
+            border: 5px solid rgb(8, 120, 165);
+            border-radius: 50%;
+            position: relative;
+            left: 25%;
+            top: -240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media(max-width:760px) {
+            .backface>.backface-back {
+                height: 200px;
+                width: 200px;
+                position: relative;
+                left: 15%;
+                top: -240px;
+            }
+        }
+
+
+        .backface-front,
+        .backface-back {
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+            transition: transform 0.6s linear;
+        }
+
+        .backface-front {
+            transform: perspective(600px) rotateY(0deg);
+        }
+
+        .backface-back {
+            background: rgb(187, 222, 236);
+            color: black;
+            transform: perspective(600px) rotateY(180deg);
+        }
+
+        .card:hover>.backface-front {
+            transform: perspective(600px) rotateY(-180deg);
+        }
+
+        .card:hover>.backface-back {
+            transform: perspective(600px) rotateY(0deg);
+        }
+
+        .flip-heading {
+            font-size: 25px;
+            position: relative;
+            left: -35px;
+            text-align: center;
+            color: black;
+            font-family: 'Quicksand', sans-serif;
+
+        }
+
+        .middle {
+            position: relative;
+            top: 0%;
+            left: 20%;
+        }
+
+        .profileicon {
+            padding: 5px;
+            /* padding-top: -500px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .margin {
+            margin: 0px 5px;
+            color: rgb(8, 120, 165);
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            padding-top: 7px;
+            border-radius: 50%;
+
+        }
+
+        .margin:hover {
+            background-color: rgb(8, 120, 165);
+            color: white;
+        }
+
+        .content1 {
+            position: relative;
+            top: -246px;
+        }
+
+        .logo1:hover {
+            transform: scale(1.1);
+        }
+
+        .mine:hover {
+            transform: scale(1.1);
+        }
+
+        .associates {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            position: relative;
+            left: 40%;
+            top: 25px;
+            border: white solid 2px;
+            border-radius: 6px;
+            width: 305px;
+            height: 57px;
+            padding: 7px;
+            text-decoration: underline;
+        }
+
+        .chiefGuest {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body {
+            background-color: #42a5f5;
+        }
+
+        .col-md-12 {
+            background-color: white;
+        }
+
+        center {
+            background-color: white;
+        }
+    </style>
+
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" id='hit'>
+                <div class="left"><img class="logo1" src="images/logo-main.jpg" width="100px;" style="margin-top:30px;">
+                </div>
+                <div class="right">
+                    <div>
+                        <h2 style="color: #063852"><b>ICSEIC 2025</b></h2>
+                        <h5>
+                            <span style="color:#38021b; font-size: 16px;"><b>International Conference on Smart
+                                    Electronics
+                                    and Intelligent Computing</b></span>
+                            <br>
+                            <p style=" text-align:left; color: #CB0000; padding-top: 10px;margin-left:0px">26-27 May,
+                                2025</p>
+                            <!-- <h4 style="color: #063852"><b>Sponsored By TEQIP III </b></h4> -->
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 hid ut" id='fit'>
+                <p>
+                    <center>
+                        <h5><b>Jointly Organised By:</b></h5>
+                        <h4>School of Engineering & Technology
+                            CMR University, Bengaluru, Karnataka, INDIA<br>
+                            &<br>
+                            University of Johannesburg, South Africa<br>
+                            &<br>
+                            Manipal University Jaipur, India</h4>
+                    </center>
+
+                </p>
+            </div>
+            <div class="col-sm-4 hid">
+                <center>
+                    <a href="https://www.cmr.edu.in/"><img src="images/cmru_logo.png" style='height: 90px; width: 90px;'
+                            class='mine'></a>
+                    <a href="https://www.uj.ac.za/#headerHeroSlider"><img
+                            src="images/University-of-Johannesburg-modified.png" style='height: 90px; width: 90px;'
+                            class='mine'></a>
+                    <a href="https://jaipur.manipal.edu"> <img src="image/manipo.png" style='height: 90px; width: 90px;'
+                            class='mine'></a>
+                    <!-- <a href="http://www.springer.com/"> <img src="image/ps.png" style='height: 38px; width: 103px;'
+                            class='mine'></a> -->
+                </center>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="margin-bottom: 0;">
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span
+                                class="caret"></span></a>
+                        <ul class="pull dropdown-menu " style="background-color: background-color: rgb(66, 165, 245);">
+                            <li><a href="aboutcmru1.html">CMR University</a></li>
+                            <li><a href="aboutjk.html"> University of Johannesburg</a></li>
+                            <li><a href="aboutmani.html">Manipal University</a></li>
+                            <!-- <li><a href="https://www.springer.com">Springer</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Committee <span
+                                class="caret"></span></a>
+                        <ul class="pull dropdown-menu " style="background-color: background-color: rgb(66, 165, 245);">
+                            <li><a href="generalcommittee.html">Organizing Committee </a></li>
+                            <li><a href="advisory.html">Advisory Committee </a></li>
+                            <li><a href="technical.html">Technical Program Committee </a></li>
+                            <li><a href="organizing.html">Website Committee </a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li><a href="track.html">Tracks</a></li>
+                    <li><a href="impd.html">Important Dates</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="keyspeaker.html">Keynote Speakers</a></li>
+                    <li><a href="papersub.html">Paper Submission </a></li>
+                    <li><a href="map.html">Local Information</a></li>
+
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--our team-->
+    <div class="teamcontainer">
+
+        <h1><b>CHIEF GUEST<b></h1>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <div class="chiefGuest">
+        <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/di.jpeg" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'>Chief Guest
+                        </h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>Prof. Ghanshyam Singh</h3>
+                <h5 class='teamcontainerheading'> Professor
+                </h5>
+                <h4 class='teamcontainerheading'>
+                    Faculty of Engineering and the Built Environment
+                    Auckland Park Kingsway Campus, University of Johannesburg,South Africa
+                </h4>
+                <p class='teamcontainerheading'>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="image/di.jpeg" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>Prof. Ghanshyam Singh</h3>
+            <h5 class='teamcontainerheading'> Professor
+            </h5>
+            <h4 class='teamcontainerheading'>
+                Faculty of Engineering and the Built Environment
+                Auckland Park Kingsway Campus, University of Johannesburg,South Africa
+            </h4>
+            <p class='teamcontainerheading'>
+
+
+        </div>
+
+    </div>
+
+
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="images/KeySpeaker1.png" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>--------</h3>
+            <h5 class='teamcontainerheading'> --------
+            </h5>
+            <h4 class='teamcontainerheading'>
+                DGM INOC-2 / LASCC
+                ISTRAC-ISRO,
+                Lucknow
+            </h4>
+            <p class='teamcontainerheading'>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>--------</h3>
+            <h5 class='teamcontainerheading'>--------
+            </h5>
+            <h4 class='teamcontainerheading'>
+
+                --------
+
+            </h4>
+            <p class='teamcontainerheading'>
+
+
+        </div>
+
+    </div>
+
+
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>--------</h3>
+            <h5 class='teamcontainerheading'> --------
+            </h5>
+            <h4 class='teamcontainerheading'>
+                --------
+            </h4>
+            <p class='teamcontainerheading'>
+
+
+        </div>
+    </div>
+
+
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>--------</h3>
+            <h5 class='teamcontainerheading'>--------
+            </h5>
+            <h4 class='teamcontainerheading'>
+
+                --------
+            </h4>
+            <p class='teamcontainerheading'>
+
+
+        </div>
+
+    </div>
+    <div id='member-1' class="teamcontainerchild1">
+        <div class="backface card">
+            <div class="backface-front">
+                <img src="" alt="" id='image-1' class="teamimage">
+            </div>
+            <div class="backface-back">
+                <div class="backface-content middle">
+                    <h6 class='flip-heading'>Keynote Speaker
+                    </h6>
+
+                </div>
+            </div>
+        </div>
+        <div class='content1'>
+            <h3 class='teamcontainerheading'>-------</h3>
+            <h5 class='teamcontainerheading'>--------</h5>
+            <h4 class='teamcontainerheading'>
+                ----------------
+            </h4>
+            <p class='teamcontainerheading'>
+        </div>
+
+    </div>
+
+
+
+    <!-- <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/vc.png" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'> VC
+                           </h6>
+                        <p class='flip-heading'>MMMUT Gorakhpur, (U.P.) INDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>J.P PANDEY</h3>
+                <p class='teamcontainerheading'>V.C MMMUT
+                </p>
+                <hr>
+               
+            </div>
+
+        </div>
+        
+        
+        <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/vc.png" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'> VC
+                           </h6>
+                        <p class='flip-heading'>MMMUT Gorakhpur, (U.P.) INDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>J.P PANDEY</h3>
+                <p class='teamcontainerheading'>V.C MMMUT
+                </p>
+                <hr>
+               
+            </div>
+
+        </div>
+
+        <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/vc.png" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'> VC
+                           </h6>
+                        <p class='flip-heading'>MMMUT Gorakhpur, (U.P.) INDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>J.P PANDEY</h3>
+                <p class='teamcontainerheading'>V.C MMMUT
+                </p>
+                <hr>
+               
+            </div>
+
+        </div>
+
+        <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/vc.png" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'> VC
+                           </h6>
+                        <p class='flip-heading'>MMMUT Gorakhpur, (U.P.) INDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>J.P PANDEY</h3>
+                <p class='teamcontainerheading'>V.C MMMUT
+                </p>
+                <hr>
+               
+            </div>
+
+        </div>
+        <div id='member-1' class="teamcontainerchild1">
+            <div class="backface card">
+                <div class="backface-front">
+                    <img src="image/vc.png" alt="" id='image-1' class="teamimage">
+                </div>
+                <div class="backface-back">
+                    <div class="backface-content middle">
+                        <h6 class='flip-heading'> VC
+                           </h6>
+                        <p class='flip-heading'>MMMUT Gorakhpur, (U.P.) INDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class='content1'>
+                <h3 class='teamcontainerheading'>J.P PANDEY</h3>
+                <p class='teamcontainerheading'>V.C MMMUT
+                </p>
+                <hr>
+               
+            </div>
+
+        </div>
+
+       -->
+    </div>
+    <div class="col-md-12">
+        <div class="container">
+            <div class="content-heading">
+                <h2>Our Sponsors</h2>
+            </div>
+            <div class="associates">
+                <ul>
+                    <!-- <li><a href="#"><img src="images/sponsors(1).jpeg" alt=""></a></li> -->
+                    <li><a href="#"><img src="images/Sponsors(2).png" alt=""></a></li>
+                    <li><a href="#"><img src="images/Sponsors(3).png" alt=""></a></li>
+                    <li><a href="#"><img src="images/Sponsors(4).png" alt=""></a></li>
+                    <li><a href="#"><img src="images/Sponsors(5).png" alt=""></a></li>
+                    <li><a href="#"><img src="images/Sponsors(6).png" alt=""></a></li>
+                    <!--<li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li>
+           <li><a href="#"><img src="image/spr.png" alt=""></a></li> -->
+                </ul>
+            </div><!-- associates end here -->
+        </div>
+    </div><!-- content end here -->
+    <div class="clearfix"></div>
+
+    <div class="bttm-gallery">
+    </div>
+    <!--- bttm-gallery end here --->
+
+    </div>
+    <!-- container end here -->
+    </div>
+
+    <center> <a href='https://www.symptoma.it/'>Symptoma</a>
+        <script type='text/javascript'
+            src='https://www.freevisitorcounters.com/auth.php?id=762b962e50f78c99ccf47c4ecc98b15af46a803d'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/775838/t/10"></script>
+    </center>
+
+
+    <div class="copyright">
+        <p>Copyright © 2025,All Rights Reserved, CMR University, Bangalore</p>
+    </div>
+    </div>
+
+    <!-- container end here -->
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        // for mobile view of the our team.
+
+        let team1 = document.getElementById('team1');
+        let team2 = document.getElementById('team2');
+        let team3 = document.getElementById('team3');
+        if (window.innerWidth < 1024) {
+            team1.style = 'width:90%';
+            team2.style = 'width:90%';
+            team3.style = 'width:90%';
+        }
+        console.log(team1, window.innerWidth);
+    </script>
+</body>
+
+</html>

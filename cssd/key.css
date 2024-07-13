@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(29, 105, 134);
+    font-family: 'Zilla Slab', serif;
+    color: white;
+    /* font-size:18px; */
+
+}
+body h1{
+    text-align: center;
+    /* font-family: cursive; */
+    margin: 0px;
+    padding: 40px;
+    border-bottom: 2px solid white;
+}
+.keynote{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.card{
+    box-shadow: 5px 5px 5px 4px rgba(57, 57, 58, 1);
+    margin: 20px;
+    padding: 20px;
+    background-color: #a1c4fd;
+
+}
+.card-title{
+    color: gold;
+}
+img{
+    max-height: 250px;
+}

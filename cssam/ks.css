@@ -1,0 +1,105 @@
+#ks
+{
+	width :100%;
+	list-style: none;
+	padding: 0;
+     
+}
+
+#ks li
+{
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin:3%;
+	box-shadow: 5px 10px 18px #888888;
+	border-left:7px solid rgb(66, 165, 245);
+	float: left;
+}
+
+#ks li p
+{
+	text-align: left;
+	font-size: thick;
+
+}
+#ks li .col-sm-4,.col-sm-8
+{
+	height: 300px;
+
+}
+#ks li .col-sm-8
+{
+
+}
+#ks li img
+{
+   height: 280px
+}
+#ks li span
+{
+	background-color: rgb(66, 165, 245);
+	color: white;
+	position: absolute;
+	top:260px;
+	width: 100%;
+	height: 40px;
+	z-index: 100;
+}
+#ks li span h3
+{
+	color: white;
+}
+
+
+#ksr
+{
+	
+
+	margin-left: 0px;
+	width: 100%; 
+	padding-right: 5%;
+
+}
+
+#ksr .col-sm-3
+{
+	height: auto;
+	
+	margin: 0%;
+	padding: 0;
+	box-shadow: 5px 10px 18px #888888;
+	
+
+
+}
+#ksr .holder
+{
+	width: 100%;
+	height: 250px;
+	
+	
+
+}
+#ksr .holder span
+{
+    position: absolute;
+    top:210px;
+    height: 40px;
+    ackground-color: rgb(66, 165, 245);
+    width: 90%;
+    padding: 0;
+
+
+}
+#ksr .holder span h3
+{
+	color: white;
+}
+.sh
+{
+	box-shadow: 5px 10px #00FFFF;
+	box-shadow: 0 3px 5px #00FFFF, 0 3px 5px #00FFFF;
+	font-family: "times new roman";
+	color: #7d0505
+}
